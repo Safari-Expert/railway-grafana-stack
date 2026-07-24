@@ -19,7 +19,7 @@ processors:
         from_attribute: service.name
 
 exporters:
-  # Tempo for traces
+  #Tempo for traces
   otlp/tempo:
     endpoint: ${env:TEMPO_ENDPOINT:-http://tempo:4317}
     tls:
