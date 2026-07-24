@@ -7,7 +7,6 @@
     "deploy": {
         "runtime": "V2",
         "numReplicas": 1,
-        "healthcheckPath": "/ready",
         "sleepApplication": false,
         "multiRegionConfig": {
             "us-east4-eqdc4a": {
